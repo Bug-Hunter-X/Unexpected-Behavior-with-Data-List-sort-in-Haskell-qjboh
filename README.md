@@ -1,0 +1,3 @@
+# Haskell Bug: Unexpected Behavior with Data.List.sort
+
+This repository demonstrates a subtle bug involving `Data.List.sort` in Haskell, specifically how it interacts with types and potential type errors. The bug and its solution are detailed in the respective `.hs` files.  The bug showcases an example where the implicit type inference of Haskell can lead to unexpected results when sorting custom data types without proper type signatures.
